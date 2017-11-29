@@ -2,7 +2,9 @@
 ## Usage
 First:
 `include ./path/Mysql.php;`
+
 Second:
+`For example:`
 ```bash
 	//创建数据库实例
 	$newdb=new Mysql("localhost","root","","mydb");
