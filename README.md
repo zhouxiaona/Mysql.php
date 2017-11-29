@@ -1,2 +1,12 @@
-# PHPbase
-### 🍿 php数据库基础阶段查询语句/插入语句封装函数集...持续更新...
+# 🎩 Mysql.php
+## Usage
+First:
+`include ./path/Mysql.php;`
+Second:
+```bash
+	//创建数据库实例
+	$newdb=new Mysql("localhost","root","","mydb");
+	//查询菜单menu表
+	$data=$newdb->getAll("*","menu","1=1");
+	print_r($data);
+```
